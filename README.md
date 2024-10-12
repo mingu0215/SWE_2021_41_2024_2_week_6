@@ -35,7 +35,7 @@ isHappy(19)
 5. Return Value: The function returns True if the number eventually reaches 1, signifying that it is a happy number.  
 
 
-
+***
 
 
 ## Week 5 Assignment  
@@ -77,7 +77,7 @@ UBUNTU_CODENAME=noble
 - PRIVACY_POLICY_URL: The URL for the privacy policy.
 - UBUNTU_CODENAME: The codename for the Ubuntu release, which is noble.  
 
-
+---
 ### 2. Git Version Command Explanation
 The following command is used to check the Git version inside a Docker container named ossp-container:
 ```
@@ -95,7 +95,7 @@ git version 2.43.0
 ### Output Explanation
 - The output displays the installed version of Git, which is 2.43.0.  
 
-
+---
 ### 3. Python Version Command Explanation
 The following command is used to check the Python version inside a Docker container named ossp-container:
 ```
@@ -113,7 +113,7 @@ Python 3.12.3
 ### Output Explanation
 - The output displays the installed version of Python, which in this example is 3.12.3.  
 
-
+---
 ### 4. Inspect Volume Bind Command Explanation
 The following command is used to inspect volume bindings of a Docker container named ossp-container:
 ```
@@ -129,7 +129,7 @@ docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 [/Users/minkyukang/ossp_host_dir:/mnt/ossp_container_dir]
 ```
 ### Output Explanation
-The output shows the volume bindings of the container. In this example, the host directory /Users/minkyukang/ossp_host_dir is mounted to the container directory /mnt/ossp_container_dir. This means that files in the host directory are accessible from the container, allowing for data sharing between the host and the container.
+- The output shows the volume bindings of the container. In this example, the host directory /Users/minkyukang/ossp_host_dir is mounted to the container directory /mnt/ossp_container_dir. This means that files in the host directory are accessible from the container, allowing for data sharing between the host and the container.
 
 
 
