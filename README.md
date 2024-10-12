@@ -40,7 +40,7 @@ isHappy(19)
 
 ## Week 5 Assignment  
 
-### Docker Command Explanation
+### 1. Docker Command Explanation
 The following command is used to get information about the operating system running inside a Docker container named ossp-container:
 ```
 docker exec ossp-container cat /etc/os-release
@@ -78,7 +78,7 @@ UBUNTU_CODENAME=noble
 - UBUNTU_CODENAME: The codename for the Ubuntu release, which is noble.  
 
 
-### Git Version Command Explanation
+### 2. Git Version Command Explanation
 The following command is used to check the Git version inside a Docker container named ossp-container:
 ```
 docker exec ossp-container git --version
@@ -96,7 +96,7 @@ git version 2.43.0
 - The output displays the installed version of Git, which is 2.43.0.  
 
 
-### Python Version Command Explanation
+### 3. Python Version Command Explanation
 The following command is used to check the Python version inside a Docker container named ossp-container:
 ```
 docker exec ossp-container python3 --version
@@ -114,7 +114,7 @@ Python 3.12.3
 - The output displays the installed version of Python, which in this example is 3.12.3.  
 
 
-### Inspect Volume Bind Command Explanation
+### 4. Inspect Volume Bind Command Explanation
 The following command is used to inspect volume bindings of a Docker container named ossp-container:
 ```
 docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
